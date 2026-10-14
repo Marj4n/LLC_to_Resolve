@@ -1,0 +1,2 @@
+# Standard library only. No pip dependencies.
+# External tools: FFmpeg (ffmpeg + ffprobe), Python 3.11+.

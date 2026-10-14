@@ -1,0 +1,68 @@
+# Marj4n LLC to Resolve — Python / Windows
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# Virtual environments and local secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Local settings: keep an example config in Git instead
+/config.json
+
+# Test / coverage / packaging
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+build/
+dist/
+*.egg-info/
+
+# IDE and OS files
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Generated timelines, temporary data and logs
+Generated Timelines/
+Audio Extracts/
+output/
+outputs/
+temp/
+tmp/
+*.fcpxml
+*.log
+*.tmp
+*.bak
+*.partial*
+
+# Media files must not be committed to a source-code repository
+*.mkv
+*.mp4
+*.mov
+*.avi
+*.webm
+*.m4a
+*.aac
+*.mp3
+*.wav
+*.flac
+
+# Personal LosslessCut sessions (keep test fixtures tracked)
+*.llc
+!tests/fixtures/*.llc
